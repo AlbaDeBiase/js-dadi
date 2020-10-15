@@ -26,6 +26,11 @@ document.getElementById('giocata2').innerHTML+= "ha vinto"
 document.getElementById('giocata1').innerHTML+= "ha perso"
 }
 
+else if (giocata1 == giocata2 ) {
+document.getElementById('giocata2').innerHTML+= "pari"
+document.getElementById('giocata1').innerHTML+= "pari"
+}
+
 
 
 
